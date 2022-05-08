@@ -17,6 +17,7 @@ int main()
 
   CreateTXT(fname);
   PrintTXT(fname);
+  cout << endl;
 
   cout << "k(BASIC) = " << CountLetters(fname) << endl;
   cout << "Last word(start with 'a') = " << findWord(fname, 'a') << endl;

@@ -20,6 +20,8 @@ int CountLetters(char* fname)
     for (unsigned i = 0; i < s.length(); k += isInclude(s[i]), i++);
   };
 
+  fin.close();
+
   return k;
 }
 

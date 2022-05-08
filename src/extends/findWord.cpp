@@ -39,6 +39,8 @@ string findWord(char* fname , char letter) {
     line_index++;
   }
 
+  fin.close();
+
   return word;
 }
 

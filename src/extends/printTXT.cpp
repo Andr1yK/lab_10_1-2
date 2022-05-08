@@ -16,8 +16,9 @@ void PrintTXT(char* fname)
   string s;
 
   for (; getline(fin, s); cout << s << endl);
-  
-  cout << endl;
+  cout << s;
+
+  fin.close();
 }
 
 #endif

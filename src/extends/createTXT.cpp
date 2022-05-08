@@ -10,19 +10,25 @@
 
 using namespace std;
 
-void CreateTXT(char* fname) {
+void CreateTXT(
+  char* fname,
+  istream &std_input = cin,
+  ostream &std_output = cout
+) {
   ofstream fout(fname);
   char ch;
   string s;
 
   do {
-    cin.get();
-    cin.sync();
-    cout << "enter line: "; getline(cin, s);
+    std_input.get();
+    std_input.sync();
+    std_output << "enter line: "; getline(std_input, s);
     fout << s << endl;
-    cout << "continue? (y/n): "; cin >> ch;
+    std_output << "continue? (y/n): "; std_input >> ch;
   } while (ch == 'y' || ch == 'Y');
 
-  cout << endl;
+  std_output << endl;
+
+  fout.close();
 }
 #endif
