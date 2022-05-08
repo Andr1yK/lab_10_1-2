@@ -1,0 +1,5 @@
+add_test([=[PASSED.alwaysIsTrue]=]  /Users/andriyk/Documents/DSPU/AP/ap_lab_template/build/unittest [==[--gtest_filter=PASSED.alwaysIsTrue]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[PASSED.alwaysIsTrue]=]  PROPERTIES WORKING_DIRECTORY /Users/andriyk/Documents/DSPU/AP/ap_lab_template/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[FAILED.alwaysIsFalse]=]  /Users/andriyk/Documents/DSPU/AP/ap_lab_template/build/unittest [==[--gtest_filter=FAILED.alwaysIsFalse]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[FAILED.alwaysIsFalse]=]  PROPERTIES WORKING_DIRECTORY /Users/andriyk/Documents/DSPU/AP/ap_lab_template/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  unittest_TESTS PASSED.alwaysIsTrue FAILED.alwaysIsFalse)
