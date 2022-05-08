@@ -1,13 +1,14 @@
 #include <gtest/gtest.h>
+#include "../src/extends/isInclude.cpp"
 
-TEST(PASSED, alwaysIsTrue) {
-  bool TRUE = true;
+TEST(IsInclude, AIncludeToLetters) {
+  bool aInLetters = isInclude('A');
 
-  EXPECT_EQ(TRUE, true);
+  EXPECT_EQ(aInLetters, true);
 }
 
-TEST(FAILED, alwaysIsFalse) {
-  bool TRUE = true;
+TEST(IsInclude, ZIncludeToLetters) {
+  bool zInLetters = isInclude('Z');
 
-  EXPECT_EQ(TRUE, false);
+  EXPECT_EQ(zInLetters, false);
 }

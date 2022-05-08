@@ -1,4 +1,4 @@
-# Install script for directory: /Users/andriyk/Documents/DSPU/AP/ap_lab_template/gtest
+# Install script for directory: /Users/andriyk/Documents/DSPU/AP/lab_10_1-2/gtest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/andriyk/Documents/DSPU/AP/ap_lab_template/build/gtest/googlemock/cmake_install.cmake")
+  include("/Users/andriyk/Documents/DSPU/AP/lab_10_1-2/build/gtest/googlemock/cmake_install.cmake")
 
 endif()
 

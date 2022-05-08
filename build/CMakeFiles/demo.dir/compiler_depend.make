@@ -416,14 +416,39 @@ CMakeFiles/demo.dir/src/main.cpp.o: ../src/main.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_types/_nl_item.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/fstream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/filesystem \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/stack \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/deque \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__split_buffer \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/iomanip \
+  ../src/extends/createTXT.cpp \
+  ../src/extends/printTXT.cpp \
+  ../src/extends/countLetters.cpp \
+  ../src/extends/isInclude.cpp \
+  ../src/extends/findWord.cpp
 
+
+../src/extends/countLetters.cpp:
+
+../src/extends/printTXT.cpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/iomanip:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/stack:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/filesystem:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/fstream:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_types/_nl_item.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h:
+
+../src/extends/findWord.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fsblkcnt_t.h:
 
@@ -552,6 +577,8 @@ CMakeFiles/demo.dir/src/main.cpp.o: ../src/main.cpp \
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_dev_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/none_of.h:
+
+../src/extends/createTXT.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/compare:
 
@@ -921,6 +948,8 @@ CMakeFiles/demo.dir/src/main.cpp.o: ../src/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/machine/endian.h:
 
+../src/extends/isInclude.cpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/unary_negate.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_types/_intmax_t.h:
@@ -1153,6 +1182,8 @@ CMakeFiles/demo.dir/src/main.cpp.o: ../src/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/ratio:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__split_buffer:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_u_int32_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/string:
@@ -1206,6 +1237,8 @@ CMakeFiles/demo.dir/src/main.cpp.o: ../src/main.cpp \
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/stdexcept:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/iosfwd:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/deque:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include/limits.h:
 

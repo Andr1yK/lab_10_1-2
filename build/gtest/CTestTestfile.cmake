@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /Users/andriyk/Documents/DSPU/AP/ap_lab_template/gtest
-# Build directory: /Users/andriyk/Documents/DSPU/AP/ap_lab_template/build/gtest
+# Source directory: /Users/andriyk/Documents/DSPU/AP/lab_10_1-2/gtest
+# Build directory: /Users/andriyk/Documents/DSPU/AP/lab_10_1-2/build/gtest
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

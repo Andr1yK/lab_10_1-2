@@ -54,10 +54,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/andriyk/Documents/DSPU/AP/ap_lab_template
+CMAKE_SOURCE_DIR = /Users/andriyk/Documents/DSPU/AP/lab_10_1-2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/andriyk/Documents/DSPU/AP/ap_lab_template/build
+CMAKE_BINARY_DIR = /Users/andriyk/Documents/DSPU/AP/lab_10_1-2/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -136,14 +136,14 @@ gtest/googletest/clean: gtest/googletest/CMakeFiles/gtest_main.dir/clean
 CMakeFiles/demo.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/andriyk/Documents/DSPU/AP/ap_lab_template/build/CMakeFiles --progress-num=1,2 "Built target demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/andriyk/Documents/DSPU/AP/lab_10_1-2/build/CMakeFiles --progress-num=1,2 "Built target demo"
 .PHONY : CMakeFiles/demo.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/andriyk/Documents/DSPU/AP/ap_lab_template/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/andriyk/Documents/DSPU/AP/lab_10_1-2/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/demo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/andriyk/Documents/DSPU/AP/ap_lab_template/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/andriyk/Documents/DSPU/AP/lab_10_1-2/build/CMakeFiles 0
 .PHONY : CMakeFiles/demo.dir/rule
 
 # Convenience name for target.
@@ -163,14 +163,14 @@ CMakeFiles/unittest.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 CMakeFiles/unittest.dir/all: gtest/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/andriyk/Documents/DSPU/AP/ap_lab_template/build/CMakeFiles --progress-num=11,12 "Built target unittest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/andriyk/Documents/DSPU/AP/lab_10_1-2/build/CMakeFiles --progress-num=11,12 "Built target unittest"
 .PHONY : CMakeFiles/unittest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/unittest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/andriyk/Documents/DSPU/AP/ap_lab_template/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/andriyk/Documents/DSPU/AP/lab_10_1-2/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/unittest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/andriyk/Documents/DSPU/AP/ap_lab_template/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/andriyk/Documents/DSPU/AP/lab_10_1-2/build/CMakeFiles 0
 .PHONY : CMakeFiles/unittest.dir/rule
 
 # Convenience name for target.
@@ -189,14 +189,14 @@ CMakeFiles/unittest.dir/clean:
 gtest/googlemock/CMakeFiles/gmock.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) $(MAKESILENT) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/andriyk/Documents/DSPU/AP/ap_lab_template/build/CMakeFiles --progress-num=3,4 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/andriyk/Documents/DSPU/AP/lab_10_1-2/build/CMakeFiles --progress-num=3,4 "Built target gmock"
 .PHONY : gtest/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/googlemock/CMakeFiles/gmock.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/andriyk/Documents/DSPU/AP/ap_lab_template/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/andriyk/Documents/DSPU/AP/lab_10_1-2/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest/googlemock/CMakeFiles/gmock.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/andriyk/Documents/DSPU/AP/ap_lab_template/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/andriyk/Documents/DSPU/AP/lab_10_1-2/build/CMakeFiles 0
 .PHONY : gtest/googlemock/CMakeFiles/gmock.dir/rule
 
 # Convenience name for target.
@@ -216,14 +216,14 @@ gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googlemock/CMakeFiles/gmoc
 gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/andriyk/Documents/DSPU/AP/ap_lab_template/build/CMakeFiles --progress-num=5,6 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/andriyk/Documents/DSPU/AP/lab_10_1-2/build/CMakeFiles --progress-num=5,6 "Built target gmock_main"
 .PHONY : gtest/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/googlemock/CMakeFiles/gmock_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/andriyk/Documents/DSPU/AP/ap_lab_template/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/andriyk/Documents/DSPU/AP/lab_10_1-2/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest/googlemock/CMakeFiles/gmock_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/andriyk/Documents/DSPU/AP/ap_lab_template/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/andriyk/Documents/DSPU/AP/lab_10_1-2/build/CMakeFiles 0
 .PHONY : gtest/googlemock/CMakeFiles/gmock_main.dir/rule
 
 # Convenience name for target.
@@ -242,14 +242,14 @@ gtest/googlemock/CMakeFiles/gmock_main.dir/clean:
 gtest/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) $(MAKESILENT) -f gtest/googletest/CMakeFiles/gtest.dir/build.make gtest/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) $(MAKESILENT) -f gtest/googletest/CMakeFiles/gtest.dir/build.make gtest/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/andriyk/Documents/DSPU/AP/ap_lab_template/build/CMakeFiles --progress-num=7,8 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/andriyk/Documents/DSPU/AP/lab_10_1-2/build/CMakeFiles --progress-num=7,8 "Built target gtest"
 .PHONY : gtest/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/googletest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/andriyk/Documents/DSPU/AP/ap_lab_template/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/andriyk/Documents/DSPU/AP/lab_10_1-2/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest/googletest/CMakeFiles/gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/andriyk/Documents/DSPU/AP/ap_lab_template/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/andriyk/Documents/DSPU/AP/lab_10_1-2/build/CMakeFiles 0
 .PHONY : gtest/googletest/CMakeFiles/gtest.dir/rule
 
 # Convenience name for target.
@@ -268,14 +268,14 @@ gtest/googletest/CMakeFiles/gtest.dir/clean:
 gtest/googletest/CMakeFiles/gtest_main.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f gtest/googletest/CMakeFiles/gtest_main.dir/build.make gtest/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f gtest/googletest/CMakeFiles/gtest_main.dir/build.make gtest/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/andriyk/Documents/DSPU/AP/ap_lab_template/build/CMakeFiles --progress-num=9,10 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/andriyk/Documents/DSPU/AP/lab_10_1-2/build/CMakeFiles --progress-num=9,10 "Built target gtest_main"
 .PHONY : gtest/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/googletest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/andriyk/Documents/DSPU/AP/ap_lab_template/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/andriyk/Documents/DSPU/AP/lab_10_1-2/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest/googletest/CMakeFiles/gtest_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/andriyk/Documents/DSPU/AP/ap_lab_template/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/andriyk/Documents/DSPU/AP/lab_10_1-2/build/CMakeFiles 0
 .PHONY : gtest/googletest/CMakeFiles/gtest_main.dir/rule
 
 # Convenience name for target.
