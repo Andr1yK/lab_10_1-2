@@ -3,6 +3,8 @@ project(ap_lab)
 
 set(CMAKE_CXX_STANDARD 11)
 
+set(buildDirectory build/)
+
 add_executable(
   demo
   src/main.cpp
@@ -14,6 +16,8 @@ add_subdirectory(
 )
 
 enable_testing()
+
+add_test(TEST "./${buildDirectory}/unittest")
 
 add_executable(
   unittest

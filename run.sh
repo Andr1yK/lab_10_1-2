@@ -6,9 +6,9 @@ fi
 
 [ ! -d "./build" ] && mkdir "./build"
 
-cd ./build
-cmake ..
-make
+cd ./build &&
+cmake .. &&
+make &&
 
 if [ "$m" == "--test" ]; then
   ./unittest
